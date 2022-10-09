@@ -44,3 +44,13 @@ print(hands[computer_choice])
 #Scissors win against paper.
 #Paper wins against rock.
 
+if user_choice == computer_choice:
+  print("It's a Draw!!")
+elif user_choice == 0 and computer_choice == 2:
+  print("You Win!")
+elif user_choice == 2 and computer_choice == 1:
+  print("You Win!")
+elif user_choice == 1 and computer_choice == 0:
+  print("You Win!")
+else:
+  print("You Lose!")
